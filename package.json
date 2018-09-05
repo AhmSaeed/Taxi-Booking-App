@@ -1,0 +1,39 @@
+{
+  "name": "TaxiBookingApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android"
+  },
+  "dependencies": {
+    "agent": "^0.2.1",
+    "axios": "^0.18.0",
+    "native-base": "^2.7.2",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-addons-update": "^15.6.2",
+    "react-native": "0.55.2",
+    "react-native-geolocation-service": "^1.1.0",
+    "react-native-google-places": "^2.5.2",
+    "react-native-maps": "^0.20.1",
+    "react-native-router-flux": "^4.0.0-beta.31",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "super": "^0.2.3",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.0",
+    "babel-preset-react-native": "4",
+    "jest": "23.4.1",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
